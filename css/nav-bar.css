@@ -14,3 +14,19 @@
 .nav__link {
   position: relative;
 }
+
+.nav__chat-notification {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 20px;
+  bottom: 20px;
+  padding: 1px;
+  width: 20px;
+  height: 20px;
+  background-color: tomato;
+  color: white;
+  font-size: 12px;
+  border-radius: 50%;
+}

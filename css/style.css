@@ -2,6 +2,7 @@
 @import "variables.css";
 @import "status-bar.css";
 @import "login.css";
+@import "friends.css";
 
 @import "nav-bar.css";
 
@@ -45,40 +46,9 @@
   margin-right: 20px;
 }
 
-.friends-info {
-  display: flex;
-  justify-content: center;
-  padding: 18px;
-  background-color: rgba(118, 118, 118, 0.1);
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.profile {
+.chat__with {
   display: flex;
   align-items: center;
   margin: 5px 20px;
   padding: 15px 0px;
-}
-
-.my-profile {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.profile-img img {
-  width: 80px;
-  height: 80px;
-  border-radius: 30px;
-}
-
-.profile-title {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.friends-profile {
-  border-bottom: none;
 }
