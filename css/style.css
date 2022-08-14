@@ -3,9 +3,12 @@
 @import "status-bar.css";
 @import "login.css";
 
+@import "nav-bar.css";
+
 @media (min-width: 801px) {
   .mobile {
     display: none;
+    height: 1000vh;
   }
 }
 
@@ -78,22 +81,4 @@
 
 .friends-profile {
   border-bottom: none;
-}
-
-.nav {
-  position: fixed;
-  bottom: 0px;
-}
-.nav__list {
-  position: relative;
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav__link {
-  position: relative;
-  box-sizing: border-box;
-  padding: 20px;
 }
