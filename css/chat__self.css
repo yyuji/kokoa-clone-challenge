@@ -115,8 +115,3 @@
   width: 90%;
   animation: wide-chat-space 300ms ease-in-out;
 }
-
-.self-chat-notification {
-  position: relative;
-  right: 100px;
-}

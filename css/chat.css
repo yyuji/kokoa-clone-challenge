@@ -13,10 +13,9 @@
 }
 
 .self-chat-notification {
+  position: relative;
   padding: 5px;
-  font-size: 18px;
-  display: flex;
-  position: fixed;
-  bottom: 3px;
+  font-size: 16px;
   left: 5px;
+  bottom: 3px;
 }
