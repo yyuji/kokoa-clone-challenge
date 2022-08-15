@@ -1,23 +1,36 @@
 @import "reset.css";
 @import "variables.css";
-@import "status-bar.css";
-@import "login.css";
-@import "friends.css";
 
+/* Contorller */
+@import "status-bar.css";
+@import "menu.css";
 @import "nav-bar.css";
 
+/* Pages */
+@import "login.css";
+@import "friends.css";
+@import "chat.css";
+@import "search.css";
+@import "chat__self.css";
+@import "more.css";
+
+/* media control */
 @media (min-width: 801px) {
   .mobile {
     display: none;
-    height: 1000vh;
+    height: 120vh;
   }
+}
+
+body {
+  height: 110vh;
 }
 
 .desktop {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 120vh;
   font-size: 48px;
 }
 
@@ -25,30 +38,4 @@
   .desktop {
     display: none;
   }
-}
-
-.menu {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 20px;
-  margin-right: 0px;
-  padding: 30px 5px;
-}
-.menu__title {
-  position: absolute;
-  left: 15px;
-  font-size: 32px;
-  font-weight: 600;
-}
-
-.menu span i {
-  margin-right: 20px;
-}
-
-.chat__with {
-  display: flex;
-  align-items: center;
-  margin: 5px 20px;
-  padding: 15px 0px;
 }

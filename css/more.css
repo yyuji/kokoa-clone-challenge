@@ -1,0 +1,43 @@
+.profile-chat {
+  position: absolute;
+  right: 30px;
+  opacity: 0.3;
+}
+
+.more-menu {
+  margin: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(135, 22, 255, 0.9);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.more-menu__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.more-menu__title-text {
+  margin: 25px 0px;
+  color: rgba(77, 77, 77, 0.7);
+}
+
+.message {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.message__thanks {
+  width: 50%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: 600;
+}

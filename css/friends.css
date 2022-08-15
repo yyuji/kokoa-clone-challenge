@@ -35,3 +35,7 @@
 .friends-profile {
   border-bottom: none;
 }
+
+.profile-type {
+  color: rgba(0, 0, 0, 0.3);
+}

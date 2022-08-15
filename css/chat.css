@@ -1,0 +1,7 @@
+.chat__with {
+  display: flex;
+  align-items: center;
+  margin: 5px 20px;
+  padding: 15px 0px;
+  cursor: pointer;
+}
