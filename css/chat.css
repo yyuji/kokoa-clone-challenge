@@ -1,7 +1,22 @@
 .chat__with {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: 5px 20px;
   padding: 15px 0px;
   cursor: pointer;
+}
+
+.profile-title {
+  position: fixed;
+  left: 100px;
+}
+
+.self-chat-notification {
+  padding: 5px;
+  font-size: 18px;
+  display: flex;
+  position: fixed;
+  bottom: 3px;
+  left: 5px;
 }
